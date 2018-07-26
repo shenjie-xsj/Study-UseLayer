@@ -14,6 +14,7 @@
 		08B93D74210969FC009AA421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B93D72210969FC009AA421 /* LaunchScreen.storyboard */; };
 		08B93D7F210969FC009AA421 /* UseLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B93D7E210969FC009AA421 /* UseLayerTests.swift */; };
 		08B93D8A210969FC009AA421 /* UseLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B93D89210969FC009AA421 /* UseLayerUITests.swift */; };
+		08B93D99210970F0009AA421 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B93D98210970F0009AA421 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08B93D85210969FC009AA421 /* UseLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B93D89210969FC009AA421 /* UseLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseLayerUITests.swift; sourceTree = "<group>"; };
 		08B93D8B210969FC009AA421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B93D98210970F0009AA421 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B93D99210970F0009AA421 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				08B93D7D210969FC009AA421 /* UseLayerTests */,
 				08B93D88210969FC009AA421 /* UseLayerUITests */,
 				08B93D67210969FA009AA421 /* Products */,
+				08B93D97210970EF009AA421 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				08B93D8B210969FC009AA421 /* Info.plist */,
 			);
 			path = UseLayerUITests;
+			sourceTree = "<group>";
+		};
+		08B93D97210970EF009AA421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B93D98210970F0009AA421 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
